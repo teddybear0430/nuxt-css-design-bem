@@ -49,7 +49,7 @@
 <style lang="scss" scoped>
 .relative {
   h1 {
-    color: red;
+    color: $base_black;
   }
 }
 </style>

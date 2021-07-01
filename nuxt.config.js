@@ -34,12 +34,16 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/typescript
     '@nuxt/typescript-build',
-    '@nuxtjs/composition-api/module'
+    '@nuxtjs/composition-api/module',
+    '@nuxtjs/style-resources',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: [
-  ],
+  modules: [],
+
+  styleResources: {
+    scss: ['./assets/scss/_variables.scss'],
+  },  
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
